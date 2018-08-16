@@ -48,8 +48,8 @@ client.on('ready', async () => {
 });
 
 
-const adminprefix = "!";
-const devs = ['300572903068663818','431150885549113344'];
+const adminprefix = "3";
+const devs = ['362322436622123011','431150885549113344'];
 bot.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
